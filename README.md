@@ -12,7 +12,7 @@ set for the later untethered boot.
 
 ## Requirements
 
-- Linux x86_64 or macOS
+- Linux x86_64
 - Python 3 and PyUSB (`python3 -m pip install pyusb`)
 - libusb and permission to access the connected USB device
 - An iPhone XR in pwnDFU mode.
