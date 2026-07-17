@@ -1,7 +1,7 @@
 # XR Nonce Setter
 
 A standalone iPhone XR (`iPhone11,8`, A12/n841ap) nonce setter using an
-usbliter8-pwned DFU session. It is independent of surrealra1n.
+usbliter8-pwned DFU session.
 
 The setter boots a nonce-patched iOS 14.4.2 iBSS, writes and reads back the
 generator, reboots to recovery, and records the resulting A12-entangled
