@@ -47,10 +47,10 @@ You can use Futurerestore's latest version to downgrade to any version that is a
 example command:
 
 ```sh
-./futurerestore -t <SHSH2 Blob> --latest-sep --latest-baseband -u <IPSW>
+./futurerestore -t <SHSH2 Blob> --latest-sep --latest-baseband <IPSW>
 ```
 
 ### Activation on iOS 14
 You can either:
 1. Save activation tickets with an SSH ramdisk.
-2. Tethered downgrade to iOS 14.0b4, which will allow you to activate.
+2. Tethered downgrade to iOS 14.0b4, which will allow you to activate. (Note: If you do this method, you will need to use the -u option for futurerestore.)
