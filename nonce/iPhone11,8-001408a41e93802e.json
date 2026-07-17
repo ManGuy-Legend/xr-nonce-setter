@@ -1,0 +1,13 @@
+{
+  "apnonce": "6b49ee4abe99a9fb43829bcf5d31dc6af71d3b22cb304d762af30c6e8f396582",
+  "bdid": "0x0c",
+  "cpid": "0x8020",
+  "ecid": "0x001408a41e93802e",
+  "generator": "0x1111111111111111",
+  "model": "n841ap",
+  "product": "iPhone11,8",
+  "recorded_at": "2026-07-16T19:36:51Z",
+  "sepnonce": "266637a1f2448516b9055e4c3ae670a082dba6c0",
+  "set": true,
+  "verified_by": "post-reboot-pair"
+}
