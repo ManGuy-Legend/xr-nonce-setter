@@ -15,7 +15,7 @@ set for the later untethered boot.
 - Linux x86_64 or macOS
 - Python 3 and PyUSB (`python3 -m pip install pyusb`)
 - libusb and permission to access the connected USB device
-- An iPhone XR in DFU mode, pwned using usbliter8
+- An iPhone XR in pwnDFU mode.
 
 Do not run the script with `sudo`.
 
@@ -41,3 +41,13 @@ baseband, or firmware-signing compatibility requirements.
 
 Only the iPhone XR is accepted. The script validates `CPID 0x8020`, `BDID
 0x0c`, and `PRODUCT iPhone11,8` before making changes.
+
+## Untethered Downgrades
+You can use Futurerestore's latest version to downgrade to any version that is above 13.7.
+example command:
+
+
+### Activation on iOS 14
+You can either:
+1. Save activation tickets with an SSH ramdisk.
+2. Tethered downgrade to iOS 14.0b4, which will allow you to activate.
