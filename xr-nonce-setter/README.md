@@ -46,6 +46,9 @@ Only the iPhone XR is accepted. The script validates `CPID 0x8020`, `BDID
 You can use Futurerestore's latest version to downgrade to any version that is above 13.7.
 example command:
 
+```sh
+./futurerestore -t <SHSH2 Blob> --latest-sep --latest-baseband -u <IPSW>
+```
 
 ### Activation on iOS 14
 You can either:
