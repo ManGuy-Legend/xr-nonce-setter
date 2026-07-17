@@ -1,0 +1,11 @@
+XR Nonce Setter
+
+Copyright 2025, pwnerblu.
+
+This project is licensed under the Apache License, Version 2.0.
+See the LICENSE file for details.
+
+The iPhone XR nonce utility uses the public usbliter8 custom boot protocol.
+usbliter8 is Copyright Paradigm Shift and its contributors.
+
+This standalone package was extracted from the surrealra1n nonce utility.
